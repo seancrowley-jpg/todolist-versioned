@@ -5,6 +5,7 @@
 # Home page
 GET     /                                       Start.index
 GET     /dashboard                              Dashboard.index
+GET     /dashboard/deletetodo/{id}              Dashboard.deleteTodo
 GET     /about                                  About.index
 
 # Ignore favicon requests
